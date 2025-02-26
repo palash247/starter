@@ -2,7 +2,7 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     -- css = { "prettier" },
-    -- html = { "prettier" },
+    -- html = { "prettier", "djlsp" },
   },
 
   format_on_save = {
